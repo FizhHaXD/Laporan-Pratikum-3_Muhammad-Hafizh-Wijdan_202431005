@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+/* Custom classes for dynamic coloring if strict override is needed, though bootstrap classes work well */
+.bg-success-custom {
+    background-color: #198754 !important;
+}
+
+.bg-danger-custom {
+    background-color: #dc3545 !important;
+}
